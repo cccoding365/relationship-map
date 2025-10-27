@@ -1,14 +1,25 @@
 <script setup>
-import { ref, onMounted } from "vue";
-import { Share2, LayoutGrid, Sun, Moon } from "lucide-vue-next";
+import { ref, onMounted, computed } from "vue";
+import { Share2, LayoutGrid, Sun, Moon, Layers } from "lucide-vue-next";
 import GraphView from "@/components/GraphView.vue";
 import ListView from "@/components/ListView.vue";
+import DatasetPicker from "@/components/DatasetPicker.vue";
 import PersonDetail from "@/components/PersonDetail.vue";
+import hongLou from "@/data/红楼梦.json";
+import sanGuo from "@/data/三国演义.json";
 
 const currentView = ref("graph"); // 'graph' | 'list'
 const isDark = ref(false);
 const selectedPerson = ref(null);
 const graphViewRef = ref(null);
+const showDatasetPicker = ref(false);
+
+const datasets = {
+  红楼梦: hongLou,
+  三国演义: sanGuo,
+};
+const currentDatasetName = ref("红楼梦");
+const currentDataset = computed(() => datasets[currentDatasetName.value]);
 
 const toggleDark = () => {
   isDark.value = !isDark.value;
@@ -35,6 +46,18 @@ onMounted(() => {
 const exportGraphImage = () => {
   graphViewRef.value?.exportImage?.();
 };
+
+const openDatasetPicker = () => {
+  showDatasetPicker.value = true;
+};
+const selectDataset = (name) => {
+  if (datasets[name]) {
+    currentDatasetName.value = name;
+    // 切换数据源时清空当前选中人物
+    selectedPerson.value = null;
+  }
+  showDatasetPicker.value = false;
+};
 </script>
 
 <template>
@@ -49,6 +72,13 @@ const exportGraphImage = () => {
       </div>
       <div class="flex-1" />
       <div class="flex items-center gap-2">
+        <button
+          :title="'选择数据源'"
+          class="p-2 rounded-md transition-colors bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700"
+          @click="openDatasetPicker"
+        >
+          <Layers class="w-5 h-5" />
+        </button>
         <button
           :title="'图谱视图'"
           :class="[
@@ -88,10 +118,11 @@ const exportGraphImage = () => {
       <GraphView
         ref="graphViewRef"
         :visible="currentView === 'graph'"
+        :data="currentDataset"
         @node-select="onNodeSelect"
         v-show="currentView === 'graph'"
       />
-      <ListView @person-select="onNodeSelect" v-show="currentView === 'list'" />
+      <ListView :data="currentDataset" @person-select="onNodeSelect" v-show="currentView === 'list'" />
     </main>
 
     <!-- 详情弹窗 -->
@@ -99,6 +130,14 @@ const exportGraphImage = () => {
       :person="selectedPerson"
       :visible="!!selectedPerson"
       @close="closeDetail"
+    />
+
+    <DatasetPicker
+      :visible="showDatasetPicker"
+      :current="currentDatasetName"
+      :options="Object.keys(datasets)"
+      @close="showDatasetPicker = false"
+      @select="selectDataset"
     />
   </div>
 </template>

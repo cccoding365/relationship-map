@@ -1,0 +1,106 @@
+{
+  "rootId": "liubei",
+  "nodes": [
+    {
+      "id": "liubei",
+      "text": "刘备",
+      "color": "#4ea2f0",
+      "borderColor": "#6cc0ff",
+      "data": {
+        "person": {
+          "id": "liubei",
+          "name": "刘备",
+          "gender": "male",
+          "bio": "蜀汉开国皇帝，与关羽、张飞结义，礼贤下士。",
+          "tags": ["三国演义", "蜀汉", "义" ]
+        }
+      }
+    },
+    {
+      "id": "guanyu",
+      "text": "关羽",
+      "color": "#4ea2f0",
+      "borderColor": "#6cc0ff",
+      "data": {
+        "person": {
+          "id": "guanyu",
+          "name": "关羽",
+          "gender": "male",
+          "bio": "蜀汉名将，忠义之士，青龙偃月刀。",
+          "tags": ["三国演义", "蜀汉", "名将"]
+        }
+      }
+    },
+    {
+      "id": "zhangfei",
+      "text": "张飞",
+      "color": "#4ea2f0",
+      "borderColor": "#6cc0ff",
+      "data": {
+        "person": {
+          "id": "zhangfei",
+          "name": "张飞",
+          "gender": "male",
+          "bio": "蜀汉猛将，性烈如火，与刘备、关羽结义。",
+          "tags": ["三国演义", "蜀汉", "猛将"]
+        }
+      }
+    },
+    {
+      "id": "zhuge",
+      "text": "诸葛亮",
+      "color": "#4ea2f0",
+      "borderColor": "#6cc0ff",
+      "data": {
+        "person": {
+          "id": "zhuge",
+          "name": "诸葛亮",
+          "gender": "male",
+          "bio": "蜀汉丞相，足智多谋，隆中对。",
+          "tags": ["三国演义", "蜀汉", "丞相"]
+        }
+      }
+    },
+    {
+      "id": "caocao",
+      "text": "曹操",
+      "color": "#f04e4e",
+      "borderColor": "#ff6c6c",
+      "data": {
+        "person": {
+          "id": "caocao",
+          "name": "曹操",
+          "gender": "male",
+          "bio": "魏国奠基者，雄才大略，善用兵。",
+          "tags": ["三国演义", "魏", "枭雄"]
+        }
+      }
+    },
+    { "id": "zhaoyun", "text": "赵云", "color": "#4ea2f0", "borderColor": "#6cc0ff", "data": { "person": { "id": "zhaoyun", "name": "赵云", "gender": "male", "bio": "蜀汉名将，常胜将军。", "tags": ["三国演义", "蜀汉", "名将"] } } },
+    { "id": "machao", "text": "马超", "color": "#4ea2f0", "borderColor": "#6cc0ff", "data": { "person": { "id": "machao", "name": "马超", "gender": "male", "bio": "蜀汉名将，西凉出身。", "tags": ["三国演义", "蜀汉", "名将"] } } },
+    { "id": "huangzhong", "text": "黄忠", "color": "#4ea2f0", "borderColor": "#6cc0ff", "data": { "person": { "id": "huangzhong", "name": "黄忠", "gender": "male", "bio": "蜀汉名将，老当益壮。", "tags": ["三国演义", "蜀汉", "名将"] } } },
+    { "id": "liushan", "text": "刘禅", "color": "#4ea2f0", "borderColor": "#6cc0ff", "data": { "person": { "id": "liushan", "name": "刘禅", "gender": "male", "bio": "蜀汉后主，刘备之子。", "tags": ["三国演义", "蜀汉", "皇帝"] } } },
+    { "id": "sunquan", "text": "孙权", "color": "#22c55e", "borderColor": "#86efac", "data": { "person": { "id": "sunquan", "name": "孙权", "gender": "male", "bio": "东吴君主，治国有方。", "tags": ["三国演义", "吴", "君主"] } } },
+    { "id": "zhouyu", "text": "周瑜", "color": "#22c55e", "borderColor": "#86efac", "data": { "person": { "id": "zhouyu", "name": "周瑜", "gender": "male", "bio": "东吴名将，赤壁之战统帅。", "tags": ["三国演义", "吴", "名将"] } } },
+    { "id": "sunshangxiang", "text": "孙尚香", "color": "#22c55e", "borderColor": "#86efac", "data": { "person": { "id": "sunshangxiang", "name": "孙尚香", "gender": "female", "bio": "东吴后辈，刘备之妻。", "tags": ["三国演义", "吴", "后辈"] } } },
+    { "id": "lvbu", "text": "吕布", "color": "#64748b", "borderColor": "#94a3b8", "data": { "person": { "id": "lvbu", "name": "吕布", "gender": "male", "bio": "三国猛将，辗转多主。", "tags": ["三国演义", "群雄", "猛将"] } } },
+    { "id": "diaochan", "text": "貂蝉", "color": "#64748b", "borderColor": "#94a3b8", "data": { "person": { "id": "diaochan", "name": "貂蝉", "gender": "female", "bio": "闭月羞花，影响历史走向。", "tags": ["三国演义", "群雄"] } } },
+    { "id": "simayi", "text": "司马懿", "color": "#f04e4e", "borderColor": "#ff6c6c", "data": { "person": { "id": "simayi", "name": "司马懿", "gender": "male", "bio": "魏国权臣，深谋远虑。", "tags": ["三国演义", "魏", "权臣"] } } }
+  ],
+  "lines": [
+    { "from": "liubei", "to": "guanyu", "text": "结义兄弟" },
+    { "from": "liubei", "to": "zhangfei", "text": "结义兄弟" },
+    { "from": "liubei", "to": "zhuge", "text": "君臣（军师）" },
+    { "from": "liubei", "to": "caocao", "text": "敌对" },
+    { "from": "liubei", "to": "zhaoyun", "text": "君臣（将领）" },
+    { "from": "zhuge", "to": "zhaoyun", "text": "同僚" },
+    { "from": "liubei", "to": "sunshangxiang", "text": "夫妻" },
+    { "from": "sunquan", "to": "zhouyu", "text": "君臣" },
+    { "from": "zhouyu", "to": "caocao", "text": "对敌" },
+    { "from": "caocao", "to": "simayi", "text": "君臣" },
+    { "from": "lvbu", "to": "diaochan", "text": "情恋" },
+    { "from": "zhaoyun", "to": "liushan", "text": "护主" },
+    { "from": "machao", "to": "liubei", "text": "同盟" },
+    { "from": "huangzhong", "to": "liubei", "text": "将领" }
+  ]
+}

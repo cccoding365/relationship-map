@@ -43,7 +43,14 @@
     {"id": "jia_yucun", "text": "贾雨村", "color": "#64748b", "borderColor": "#94a3b8", "data": {"person": {"id": "jia_yucun", "name": "贾雨村", "gender": "male", "bio": "外亲，官员。", "tags": ["红楼梦", "外亲", "官员"]}}},
     {"id": "xiren", "text": "袭人", "color": "#f59e0b", "borderColor": "#fbbf24", "data": {"person": {"id": "xiren", "name": "袭人", "gender": "female", "bio": "贾府侍女，宝玉房中丫鬟。", "tags": ["红楼梦", "贾府", "侍女"]}}},
     {"id": "qingwen", "text": "晴雯", "color": "#f59e0b", "borderColor": "#fbbf24", "data": {"person": {"id": "qingwen", "name": "晴雯", "gender": "female", "bio": "贾府侍女。", "tags": ["红楼梦", "贾府", "侍女"]}}},
-    {"id": "zijuan", "text": "紫鹃", "color": "#f59e0b", "borderColor": "#fbbf24", "data": {"person": {"id": "zijuan", "name": "紫鹃", "gender": "female", "bio": "林家侍女。", "tags": ["红楼梦", "林家", "侍女"]}}}
+    {"id": "zijuan", "text": "紫鹃", "color": "#f59e0b", "borderColor": "#fbbf24", "data": {"person": {"id": "zijuan", "name": "紫鹃", "gender": "female", "bio": "林家侍女。", "tags": ["红楼梦", "林家", "侍女"]}}},
+    {"id": "qin_zhong", "text": "秦钟", "color": "#64748b", "borderColor": "#94a3b8", "data": {"person": {"id": "qin_zhong", "name": "秦钟", "gender": "male", "bio": "外亲，宝玉之友。", "tags": ["红楼梦", "外亲", "朋友"]}}},
+    {"id": "xue_baoqin", "text": "薛宝琴", "color": "#f472b6", "borderColor": "#fb7185", "data": {"person": {"id": "xue_baoqin", "name": "薛宝琴", "gender": "female", "bio": "薛家后辈，与众姐妹同游。", "tags": ["红楼梦", "薛家", "后辈"]}}},
+    {"id": "yuan_yang", "text": "鸳鸯", "color": "#f59e0b", "borderColor": "#fbbf24", "data": {"person": {"id": "yuan_yang", "name": "鸳鸯", "gender": "female", "bio": "贾母身边侍女。", "tags": ["红楼梦", "贾府", "侍女"]}}},
+    {"id": "jia_cong", "text": "贾琮", "color": "#ec6941", "borderColor": "#ff875e", "data": {"person": {"id": "jia_cong", "name": "贾琮", "gender": "male", "bio": "宁国府宗亲。", "tags": ["红楼梦", "宁国府", "宗亲"]}}},
+    {"id": "jin_chuan", "text": "金钏", "color": "#f59e0b", "borderColor": "#fbbf24", "data": {"person": {"id": "jin_chuan", "name": "金钏", "gender": "female", "bio": "贾府侍女，王夫人身边丫鬟。", "tags": ["红楼梦", "贾府", "侍女"]}}},
+    {"id": "jia_yun", "text": "贾芸", "color": "#4ea2f0", "borderColor": "#6cc0ff", "data": {"person": {"id": "jia_yun", "name": "贾芸", "gender": "male", "bio": "贾府后辈，勤勉上进。", "tags": ["红楼梦", "贾府", "后辈"]}}},
+    {"id": "sun_shaozu", "text": "孙绍祖", "color": "#64748b", "borderColor": "#94a3b8", "data": {"person": {"id": "sun_shaozu", "name": "孙绍祖", "gender": "male", "bio": "外亲，贾迎春之夫。", "tags": ["红楼梦", "外亲"]}}}
   ],
   "lines": [
     {"from": "jia_mu", "to": "jia_she", "text": "母子"},
@@ -93,6 +100,21 @@
     {"from": "you_sanjie", "to": "jia_lian", "text": "情缘"},
     {"from": "jia_qiang", "to": "jia_zhen", "text": "族亲"},
     {"from": "jia_min", "to": "lin_daiyu", "text": "母女"},
-    {"from": "lin_ruhai", "to": "lin_daiyu", "text": "父女"}
+    {"from": "lin_ruhai", "to": "lin_daiyu", "text": "父女"},
+    {"from": "jia_baoyu", "to": "qin_zhong", "text": "友人"},
+    {"from": "xue_baoqin", "to": "shi_xiangyun", "text": "闺友"},
+    {"from": "xue_baoqin", "to": "lin_daiyu", "text": "闺友"},
+    {"from": "yuan_yang", "to": "jia_mu", "text": "主仆"},
+    {"from": "jia_cong", "to": "jia_zhen", "text": "族亲"},
+    {"from": "you_erjie", "to": "wang_xifeng", "text": "矛盾"},
+    {"from": "you_shi", "to": "jia_rong", "text": "母子"},
+    {"from": "ping_er", "to": "jia_lian", "text": "侍妾"},
+    {"from": "wang_furen", "to": "jin_chuan", "text": "主仆"},
+    {"from": "jin_chuan", "to": "jia_baoyu", "text": "交往"},
+    {"from": "jia_yingchun", "to": "sun_shaozu", "text": "夫妻"},
+    {"from": "sun_shaozu", "to": "jia_yingchun", "text": "不义"},
+    {"from": "lin_daiyu", "to": "xue_baoqin", "text": "闺友"},
+    {"from": "shi_xiangyun", "to": "xue_baoqin", "text": "闺友"},
+    {"from": "jia_rong", "to": "jia_baoyu", "text": "族亲"}
   ]
 }

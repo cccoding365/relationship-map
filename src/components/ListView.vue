@@ -1,7 +1,10 @@
 <script setup>
-import graphJson from '@/data/graph.json'
+import { computed } from 'vue'
 const emits = defineEmits(['person-select'])
-const people = graphJson.nodes.map(n => n.data?.person).filter(Boolean)
+const props = defineProps({ data: { type: Object, default: null } })
+const people = computed(() => (props.data?.nodes || [])
+  .map(n => n.data?.person)
+  .filter(Boolean))
 </script>
 
 <template>
