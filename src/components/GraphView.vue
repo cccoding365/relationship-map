@@ -69,27 +69,6 @@ onMounted(() => {
   loadGraph();
 });
 
-// 监听外部暗模式切换（如果有），刷新图谱以适配样式
-watch(layoutName, () => {});
-
-// 当组件重新可见时，进行一次居中/适配，避免隐藏期间尺寸为 0 造成的错位
-watch(
-  () => props.visible,
-  async (v) => {
-    if (v) {
-      await nextTick();
-      const instance = graphRef.value?.getInstance();
-      if (!instance) return;
-      try {
-        await instance.zoomToFit();
-      } catch (e) {}
-      try {
-        await instance.moveToCenter();
-      } catch (e) {}
-    }
-  }
-);
-
 // 暴露方法供父组件调用（如顶部导航触发导出）
 defineExpose({ exportImage });
 </script>
