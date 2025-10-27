@@ -43,7 +43,10 @@ const exportGraphImage = () => {
     <header
       class="fixed top-0 inset-x-0 z-50 flex items-center gap-3 h-12 px-4 border-b border-gray-200 dark:border-gray-800 bg-white/70 dark:bg-gray-900/70 backdrop-blur supports-[backdrop-filter]:bg-white/50 dark:supports-[backdrop-filter]:bg-gray-900/50"
     >
-      <div class="text-lg font-bold">关系图谱</div>
+      <div class="flex items-center gap-2">
+        <img src="/logo.svg" alt="网站 Logo" class="h-8 w-8" />
+        <div class="text-lg font-bold">关系图谱</div>
+      </div>
       <div class="flex-1" />
       <div class="flex items-center gap-2">
         <button
