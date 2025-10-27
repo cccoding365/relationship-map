@@ -12,7 +12,7 @@
           "name": "刘备",
           "gender": "male",
           "bio": "蜀汉开国皇帝，与关羽、张飞结义，礼贤下士。",
-          "tags": ["三国演义", "蜀汉", "义" ]
+          "tags": ["三国演义", "蜀汉", "义"]
         }
       }
     },
@@ -76,16 +76,666 @@
         }
       }
     },
-    { "id": "zhaoyun", "text": "赵云", "color": "#4ea2f0", "borderColor": "#6cc0ff", "data": { "person": { "id": "zhaoyun", "name": "赵云", "gender": "male", "bio": "蜀汉名将，常胜将军。", "tags": ["三国演义", "蜀汉", "名将"] } } },
-    { "id": "machao", "text": "马超", "color": "#4ea2f0", "borderColor": "#6cc0ff", "data": { "person": { "id": "machao", "name": "马超", "gender": "male", "bio": "蜀汉名将，西凉出身。", "tags": ["三国演义", "蜀汉", "名将"] } } },
-    { "id": "huangzhong", "text": "黄忠", "color": "#4ea2f0", "borderColor": "#6cc0ff", "data": { "person": { "id": "huangzhong", "name": "黄忠", "gender": "male", "bio": "蜀汉名将，老当益壮。", "tags": ["三国演义", "蜀汉", "名将"] } } },
-    { "id": "liushan", "text": "刘禅", "color": "#4ea2f0", "borderColor": "#6cc0ff", "data": { "person": { "id": "liushan", "name": "刘禅", "gender": "male", "bio": "蜀汉后主，刘备之子。", "tags": ["三国演义", "蜀汉", "皇帝"] } } },
-    { "id": "sunquan", "text": "孙权", "color": "#22c55e", "borderColor": "#86efac", "data": { "person": { "id": "sunquan", "name": "孙权", "gender": "male", "bio": "东吴君主，治国有方。", "tags": ["三国演义", "吴", "君主"] } } },
-    { "id": "zhouyu", "text": "周瑜", "color": "#22c55e", "borderColor": "#86efac", "data": { "person": { "id": "zhouyu", "name": "周瑜", "gender": "male", "bio": "东吴名将，赤壁之战统帅。", "tags": ["三国演义", "吴", "名将"] } } },
-    { "id": "sunshangxiang", "text": "孙尚香", "color": "#22c55e", "borderColor": "#86efac", "data": { "person": { "id": "sunshangxiang", "name": "孙尚香", "gender": "female", "bio": "东吴后辈，刘备之妻。", "tags": ["三国演义", "吴", "后辈"] } } },
-    { "id": "lvbu", "text": "吕布", "color": "#64748b", "borderColor": "#94a3b8", "data": { "person": { "id": "lvbu", "name": "吕布", "gender": "male", "bio": "三国猛将，辗转多主。", "tags": ["三国演义", "群雄", "猛将"] } } },
-    { "id": "diaochan", "text": "貂蝉", "color": "#64748b", "borderColor": "#94a3b8", "data": { "person": { "id": "diaochan", "name": "貂蝉", "gender": "female", "bio": "闭月羞花，影响历史走向。", "tags": ["三国演义", "群雄"] } } },
-    { "id": "simayi", "text": "司马懿", "color": "#f04e4e", "borderColor": "#ff6c6c", "data": { "person": { "id": "simayi", "name": "司马懿", "gender": "male", "bio": "魏国权臣，深谋远虑。", "tags": ["三国演义", "魏", "权臣"] } } }
+    {
+      "id": "zhaoyun",
+      "text": "赵云",
+      "color": "#4ea2f0",
+      "borderColor": "#6cc0ff",
+      "data": {
+        "person": {
+          "id": "zhaoyun",
+          "name": "赵云",
+          "gender": "male",
+          "bio": "蜀汉名将，常胜将军。",
+          "tags": ["三国演义", "蜀汉", "名将"]
+        }
+      }
+    },
+    {
+      "id": "machao",
+      "text": "马超",
+      "color": "#4ea2f0",
+      "borderColor": "#6cc0ff",
+      "data": {
+        "person": {
+          "id": "machao",
+          "name": "马超",
+          "gender": "male",
+          "bio": "蜀汉名将，西凉出身。",
+          "tags": ["三国演义", "蜀汉", "名将"]
+        }
+      }
+    },
+    {
+      "id": "huangzhong",
+      "text": "黄忠",
+      "color": "#4ea2f0",
+      "borderColor": "#6cc0ff",
+      "data": {
+        "person": {
+          "id": "huangzhong",
+          "name": "黄忠",
+          "gender": "male",
+          "bio": "蜀汉名将，老当益壮。",
+          "tags": ["三国演义", "蜀汉", "名将"]
+        }
+      }
+    },
+    {
+      "id": "liushan",
+      "text": "刘禅",
+      "color": "#4ea2f0",
+      "borderColor": "#6cc0ff",
+      "data": {
+        "person": {
+          "id": "liushan",
+          "name": "刘禅",
+          "gender": "male",
+          "bio": "蜀汉后主，刘备之子。",
+          "tags": ["三国演义", "蜀汉", "皇帝"]
+        }
+      }
+    },
+    {
+      "id": "sunquan",
+      "text": "孙权",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "sunquan",
+          "name": "孙权",
+          "gender": "male",
+          "bio": "东吴君主，治国有方。",
+          "tags": ["三国演义", "吴", "君主"]
+        }
+      }
+    },
+    {
+      "id": "zhouyu",
+      "text": "周瑜",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "zhouyu",
+          "name": "周瑜",
+          "gender": "male",
+          "bio": "东吴名将，赤壁之战统帅。",
+          "tags": ["三国演义", "吴", "名将"]
+        }
+      }
+    },
+    {
+      "id": "sunshangxiang",
+      "text": "孙尚香",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "sunshangxiang",
+          "name": "孙尚香",
+          "gender": "female",
+          "bio": "东吴后辈，刘备之妻。",
+          "tags": ["三国演义", "吴", "后辈"]
+        }
+      }
+    },
+    {
+      "id": "lvbu",
+      "text": "吕布",
+      "color": "#64748b",
+      "borderColor": "#94a3b8",
+      "data": {
+        "person": {
+          "id": "lvbu",
+          "name": "吕布",
+          "gender": "male",
+          "bio": "三国猛将，辗转多主。",
+          "tags": ["三国演义", "群雄", "猛将"]
+        }
+      }
+    },
+    {
+      "id": "diaochan",
+      "text": "貂蝉",
+      "color": "#64748b",
+      "borderColor": "#94a3b8",
+      "data": {
+        "person": {
+          "id": "diaochan",
+          "name": "貂蝉",
+          "gender": "female",
+          "bio": "闭月羞花，影响历史走向。",
+          "tags": ["三国演义", "群雄"]
+        }
+      }
+    },
+    {
+      "id": "simayi",
+      "text": "司马懿",
+      "color": "#f04e4e",
+      "borderColor": "#ff6c6c",
+      "data": {
+        "person": {
+          "id": "simayi",
+          "name": "司马懿",
+          "gender": "male",
+          "bio": "魏国权臣，深谋远虑。",
+          "tags": ["三国演义", "魏", "权臣"]
+        }
+      }
+    },
+    {
+      "id": "pangtong",
+      "text": "庞统",
+      "color": "#4ea2f0",
+      "borderColor": "#6cc0ff",
+      "data": {
+        "person": {
+          "id": "pangtong",
+          "name": "庞统",
+          "gender": "male",
+          "bio": "蜀汉谋臣，“凤雏”，与诸葛亮并称。",
+          "tags": ["三国演义", "蜀汉", "谋士"]
+        }
+      }
+    },
+    {
+      "id": "fazheng",
+      "text": "法正",
+      "color": "#4ea2f0",
+      "borderColor": "#6cc0ff",
+      "data": {
+        "person": {
+          "id": "fazheng",
+          "name": "法正",
+          "gender": "male",
+          "bio": "蜀汉谋士，佐刘备定蜀。",
+          "tags": ["三国演义", "蜀汉", "谋士"]
+        }
+      }
+    },
+    {
+      "id": "weiyan",
+      "text": "魏延",
+      "color": "#4ea2f0",
+      "borderColor": "#6cc0ff",
+      "data": {
+        "person": {
+          "id": "weiyan",
+          "name": "魏延",
+          "gender": "male",
+          "bio": "蜀汉将领，骁勇果敢。",
+          "tags": ["三国演义", "蜀汉", "名将"]
+        }
+      }
+    },
+    {
+      "id": "jiangwei",
+      "text": "姜维",
+      "color": "#4ea2f0",
+      "borderColor": "#6cc0ff",
+      "data": {
+        "person": {
+          "id": "jiangwei",
+          "name": "姜维",
+          "gender": "male",
+          "bio": "蜀汉后期名将，承诸葛遗志。",
+          "tags": ["三国演义", "蜀汉", "名将"]
+        }
+      }
+    },
+    {
+      "id": "madai",
+      "text": "马岱",
+      "color": "#4ea2f0",
+      "borderColor": "#6cc0ff",
+      "data": {
+        "person": {
+          "id": "madai",
+          "name": "马岱",
+          "gender": "male",
+          "bio": "蜀汉将领，马超族弟。",
+          "tags": ["三国演义", "蜀汉", "名将"]
+        }
+      }
+    },
+    {
+      "id": "guanping",
+      "text": "关平",
+      "color": "#4ea2f0",
+      "borderColor": "#6cc0ff",
+      "data": {
+        "person": {
+          "id": "guanping",
+          "name": "关平",
+          "gender": "male",
+          "bio": "蜀汉将领，关羽之子。",
+          "tags": ["三国演义", "蜀汉", "后辈"]
+        }
+      }
+    },
+    {
+      "id": "mizhu",
+      "text": "糜竺",
+      "color": "#4ea2f0",
+      "borderColor": "#6cc0ff",
+      "data": {
+        "person": {
+          "id": "mizhu",
+          "name": "糜竺",
+          "gender": "male",
+          "bio": "蜀汉幕僚，资助刘备创业。",
+          "tags": ["三国演义", "蜀汉", "幕僚"]
+        }
+      }
+    },
+    {
+      "id": "mifang",
+      "text": "糜芳",
+      "color": "#4ea2f0",
+      "borderColor": "#6cc0ff",
+      "data": {
+        "person": {
+          "id": "mifang",
+          "name": "糜芳",
+          "gender": "male",
+          "bio": "蜀汉后辈，后投吴。",
+          "tags": ["三国演义", "蜀汉", "后辈"]
+        }
+      }
+    },
+    {
+      "id": "caopi",
+      "text": "曹丕",
+      "color": "#f04e4e",
+      "borderColor": "#ff6c6c",
+      "data": {
+        "person": {
+          "id": "caopi",
+          "name": "曹丕",
+          "gender": "male",
+          "bio": "魏文帝，曹操之子。",
+          "tags": ["三国演义", "魏", "皇帝"]
+        }
+      }
+    },
+    {
+      "id": "caoren",
+      "text": "曹仁",
+      "color": "#f04e4e",
+      "borderColor": "#ff6c6c",
+      "data": {
+        "person": {
+          "id": "caoren",
+          "name": "曹仁",
+          "gender": "male",
+          "bio": "魏国宗亲名将。",
+          "tags": ["三国演义", "魏", "名将"]
+        }
+      }
+    },
+    {
+      "id": "xiahoudun",
+      "text": "夏侯惇",
+      "color": "#f04e4e",
+      "borderColor": "#ff6c6c",
+      "data": {
+        "person": {
+          "id": "xiahoudun",
+          "name": "夏侯惇",
+          "gender": "male",
+          "bio": "魏国宗亲名将，独眼。",
+          "tags": ["三国演义", "魏", "名将"]
+        }
+      }
+    },
+    {
+      "id": "xiahouyuan",
+      "text": "夏侯渊",
+      "color": "#f04e4e",
+      "borderColor": "#ff6c6c",
+      "data": {
+        "person": {
+          "id": "xiahouyuan",
+          "name": "夏侯渊",
+          "gender": "male",
+          "bio": "魏国宗亲名将。",
+          "tags": ["三国演义", "魏", "名将"]
+        }
+      }
+    },
+    {
+      "id": "xuchu",
+      "text": "许褚",
+      "color": "#f04e4e",
+      "borderColor": "#ff6c6c",
+      "data": {
+        "person": {
+          "id": "xuchu",
+          "name": "许褚",
+          "gender": "male",
+          "bio": "魏国猛将，贴身护卫。",
+          "tags": ["三国演义", "魏", "猛将"]
+        }
+      }
+    },
+    {
+      "id": "dianwei",
+      "text": "典韦",
+      "color": "#f04e4e",
+      "borderColor": "#ff6c6c",
+      "data": {
+        "person": {
+          "id": "dianwei",
+          "name": "典韦",
+          "gender": "male",
+          "bio": "魏国猛将，贴身护卫。",
+          "tags": ["三国演义", "魏", "猛将"]
+        }
+      }
+    },
+    {
+      "id": "guojia",
+      "text": "郭嘉",
+      "color": "#f04e4e",
+      "borderColor": "#ff6c6c",
+      "data": {
+        "person": {
+          "id": "guojia",
+          "name": "郭嘉",
+          "gender": "male",
+          "bio": "魏国谋士，奇谋善断。",
+          "tags": ["三国演义", "魏", "谋士"]
+        }
+      }
+    },
+    {
+      "id": "xunyu",
+      "text": "荀彧",
+      "color": "#f04e4e",
+      "borderColor": "#ff6c6c",
+      "data": {
+        "person": {
+          "id": "xunyu",
+          "name": "荀彧",
+          "gender": "male",
+          "bio": "魏国谋士，曹操心腹。",
+          "tags": ["三国演义", "魏", "谋士"]
+        }
+      }
+    },
+    {
+      "id": "zhangliao",
+      "text": "张辽",
+      "color": "#f04e4e",
+      "borderColor": "#ff6c6c",
+      "data": {
+        "person": {
+          "id": "zhangliao",
+          "name": "张辽",
+          "gender": "male",
+          "bio": "魏国名将，合肥威名。",
+          "tags": ["三国演义", "魏", "名将"]
+        }
+      }
+    },
+    {
+      "id": "zhanghe",
+      "text": "张郃",
+      "color": "#f04e4e",
+      "borderColor": "#ff6c6c",
+      "data": {
+        "person": {
+          "id": "zhanghe",
+          "name": "张郃",
+          "gender": "male",
+          "bio": "魏国名将，善于机变。",
+          "tags": ["三国演义", "魏", "名将"]
+        }
+      }
+    },
+    {
+      "id": "sunce",
+      "text": "孙策",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "sunce",
+          "name": "孙策",
+          "gender": "male",
+          "bio": "江东之主，孙权之兄。",
+          "tags": ["三国演义", "吴", "君主"]
+        }
+      }
+    },
+    {
+      "id": "lusu",
+      "text": "鲁肃",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "lusu",
+          "name": "鲁肃",
+          "gender": "male",
+          "bio": "东吴谋士，长于外交。",
+          "tags": ["三国演义", "吴", "谋士"]
+        }
+      }
+    },
+    {
+      "id": "taishici",
+      "text": "太史慈",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "taishici",
+          "name": "太史慈",
+          "gender": "male",
+          "bio": "东吴名将，骁勇善战。",
+          "tags": ["三国演义", "吴", "名将"]
+        }
+      }
+    },
+    {
+      "id": "luxun",
+      "text": "陆逊",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "luxun",
+          "name": "陆逊",
+          "gender": "male",
+          "bio": "东吴名将，夷陵之战主将。",
+          "tags": ["三国演义", "吴", "名将"]
+        }
+      }
+    },
+    {
+      "id": "ganning",
+      "text": "甘宁",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "ganning",
+          "name": "甘宁",
+          "gender": "male",
+          "bio": "东吴名将，江贼出身改投吴。",
+          "tags": ["三国演义", "吴", "名将"]
+        }
+      }
+    },
+    {
+      "id": "sunjian",
+      "text": "孙坚",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "sunjian",
+          "name": "孙坚",
+          "gender": "male",
+          "bio": "东吴奠基者，孙策与孙权之父。",
+          "tags": ["三国演义", "吴", "君主"]
+        }
+      }
+    },
+    {
+      "id": "dongzhuo",
+      "text": "董卓",
+      "color": "#64748b",
+      "borderColor": "#94a3b8",
+      "data": {
+        "person": {
+          "id": "dongzhuo",
+          "name": "董卓",
+          "gender": "male",
+          "bio": "群雄之一，挟天子以令诸侯。",
+          "tags": ["三国演义", "群雄"]
+        }
+      }
+    },
+    {
+      "id": "yuanshao",
+      "text": "袁绍",
+      "color": "#64748b",
+      "borderColor": "#94a3b8",
+      "data": {
+        "person": {
+          "id": "yuanshao",
+          "name": "袁绍",
+          "gender": "male",
+          "bio": "河北诸侯，拥强兵。",
+          "tags": ["三国演义", "群雄"]
+        }
+      }
+    },
+    {
+      "id": "liubiao",
+      "text": "刘表",
+      "color": "#64748b",
+      "borderColor": "#94a3b8",
+      "data": {
+        "person": {
+          "id": "liubiao",
+          "name": "刘表",
+          "gender": "male",
+          "bio": "荆州牧，早期接纳刘备。",
+          "tags": ["三国演义", "群雄"]
+        }
+      }
+    },
+    {
+      "id": "gongsunzan",
+      "text": "公孙瓒",
+      "color": "#64748b",
+      "borderColor": "#94a3b8",
+      "data": {
+        "person": {
+          "id": "gongsunzan",
+          "name": "公孙瓒",
+          "gender": "male",
+          "bio": "幽州军阀，刘备早期上司。",
+          "tags": ["三国演义", "群雄"]
+        }
+      }
+    },
+    {
+      "id": "huatuo",
+      "text": "华佗",
+      "color": "#64748b",
+      "borderColor": "#94a3b8",
+      "data": {
+        "person": {
+          "id": "huatuo",
+          "name": "华佗",
+          "gender": "male",
+          "bio": "神医，曾为曹操治病。",
+          "tags": ["三国演义", "群雄", "医者"]
+        }
+      }
+    },
+    {
+      "id": "zhangjiao",
+      "text": "张角",
+      "color": "#64748b",
+      "borderColor": "#94a3b8",
+      "data": {
+        "person": {
+          "id": "zhangjiao",
+          "name": "张角",
+          "gender": "male",
+          "bio": "黄巾起义首领，道号“大贤良师”。",
+          "tags": ["三国演义", "群雄", "黄巾"]
+        }
+      }
+    },
+    {
+      "id": "yuanshu",
+      "text": "袁术",
+      "color": "#64748b",
+      "borderColor": "#94a3b8",
+      "data": {
+        "person": {
+          "id": "yuanshu",
+          "name": "袁术",
+          "gender": "male",
+          "bio": "群雄之一，曾僭号帝。",
+          "tags": ["三国演义", "群雄"]
+        }
+      }
+    },
+    {
+      "id": "wenchou",
+      "text": "文丑",
+      "color": "#64748b",
+      "borderColor": "#94a3b8",
+      "data": {
+        "person": {
+          "id": "wenchou",
+          "name": "文丑",
+          "gender": "male",
+          "bio": "袁绍麾下名将。",
+          "tags": ["三国演义", "群雄", "名将"]
+        }
+      }
+    },
+    {
+      "id": "yanliang",
+      "text": "颜良",
+      "color": "#64748b",
+      "borderColor": "#94a3b8",
+      "data": {
+        "person": {
+          "id": "yanliang",
+          "name": "颜良",
+          "gender": "male",
+          "bio": "袁绍麾下名将。",
+          "tags": ["三国演义", "群雄", "名将"]
+        }
+      }
+    },
+    {
+      "id": "caimao",
+      "text": "蔡瑁",
+      "color": "#64748b",
+      "borderColor": "#94a3b8",
+      "data": {
+        "person": {
+          "id": "caimao",
+          "name": "蔡瑁",
+          "gender": "male",
+          "bio": "荆州刘表属下将领。",
+          "tags": ["三国演义", "群雄", "名将"]
+        }
+      }
+    }
   ],
   "lines": [
     { "from": "liubei", "to": "guanyu", "text": "结义兄弟" },
@@ -101,6 +751,56 @@
     { "from": "lvbu", "to": "diaochan", "text": "情恋" },
     { "from": "zhaoyun", "to": "liushan", "text": "护主" },
     { "from": "machao", "to": "liubei", "text": "同盟" },
-    { "from": "huangzhong", "to": "liubei", "text": "将领" }
+    { "from": "huangzhong", "to": "liubei", "text": "将领" },
+    { "from": "liubei", "to": "sunquan", "text": "同盟（联吴抗曹）" },
+    { "from": "zhouyu", "to": "zhuge", "text": "政略博弈" },
+    { "from": "caocao", "to": "sunquan", "text": "对敌" },
+    { "from": "simayi", "to": "zhuge", "text": "宿敌" },
+    { "from": "caocao", "to": "caopi", "text": "父子" },
+    { "from": "caocao", "to": "xiahoudun", "text": "宗亲" },
+    { "from": "caocao", "to": "xiahouyuan", "text": "宗亲" },
+    { "from": "caocao", "to": "caoren", "text": "宗亲" },
+    { "from": "caocao", "to": "zhangliao", "text": "将领" },
+    { "from": "caocao", "to": "zhanghe", "text": "将领" },
+    { "from": "caocao", "to": "xuchu", "text": "护主" },
+    { "from": "caocao", "to": "dianwei", "text": "护主" },
+    { "from": "caocao", "to": "guojia", "text": "谋士" },
+    { "from": "caocao", "to": "xunyu", "text": "谋士" },
+    { "from": "liubei", "to": "pangtong", "text": "君臣（军师）" },
+    { "from": "liubei", "to": "fazheng", "text": "君臣（谋士）" },
+    { "from": "liubei", "to": "weiyan", "text": "君臣（将领）" },
+    { "from": "zhuge", "to": "jiangwei", "text": "师徒" },
+    { "from": "weiyan", "to": "madai", "text": "同僚" },
+    { "from": "guanyu", "to": "guanping", "text": "父子" },
+    { "from": "mizhu", "to": "liubei", "text": "幕僚" },
+    { "from": "mifang", "to": "liubei", "text": "将领" },
+    { "from": "mifang", "to": "guanyu", "text": "背叛" },
+    { "from": "sunquan", "to": "lusu", "text": "君臣（谋士）" },
+    { "from": "sunquan", "to": "luxun", "text": "君臣（将领）" },
+    { "from": "sunquan", "to": "taishici", "text": "君臣（将领）" },
+    { "from": "sunquan", "to": "ganning", "text": "君臣（将领）" },
+    { "from": "sunquan", "to": "sunce", "text": "兄弟" },
+    { "from": "sunjian", "to": "sunce", "text": "父子" },
+    { "from": "sunjian", "to": "sunquan", "text": "父子" },
+    { "from": "zhouyu", "to": "lusu", "text": "同僚" },
+    { "from": "lvbu", "to": "dongzhuo", "text": "背叛" },
+    { "from": "dongzhuo", "to": "lvbu", "text": "主仆" },
+    { "from": "caocao", "to": "yuanshao", "text": "对敌" },
+    { "from": "liubei", "to": "liubiao", "text": "依附" },
+    { "from": "liubei", "to": "gongsunzan", "text": "君臣（幕僚）" },
+    { "from": "huatuo", "to": "caocao", "text": "医者" },
+    { "from": "luxun", "to": "liubei", "text": "对敌" },
+    { "from": "zhangliao", "to": "sunquan", "text": "对敌" },
+    { "from": "yuanshao", "to": "yanliang", "text": "君臣（将领）" },
+    { "from": "yuanshao", "to": "wenchou", "text": "君臣（将领）" },
+    { "from": "yanliang", "to": "guanyu", "text": "对敌" },
+    { "from": "wenchou", "to": "guanyu", "text": "对敌" },
+    { "from": "liubiao", "to": "caimao", "text": "君臣（将领）" },
+    { "from": "caimao", "to": "caocao", "text": "对敌" },
+    { "from": "zhangjiao", "to": "liubei", "text": "对敌" },
+    { "from": "zhangjiao", "to": "caocao", "text": "对敌" },
+    { "from": "yuanshu", "to": "yuanshao", "text": "宗亲" },
+    { "from": "yuanshu", "to": "yuanshao", "text": "对立" },
+    { "from": "yuanshu", "to": "sunce", "text": "君臣（将领）" }
   ]
 }
