@@ -33,8 +33,12 @@ const loadGraph = async () => {
 };
 
 const onNodeClick = (nodeObject) => {
-  const personId = nodeObject?.data?.personId || nodeObject?.id;
-  emits("node-select", personId);
+  const person = nodeObject?.data?.person;
+  if (person) {
+    emits("node-select", person);
+  } else {
+    emits("node-select", { id: nodeObject?.id, name: nodeObject?.text });
+  }
   return true;
 };
 

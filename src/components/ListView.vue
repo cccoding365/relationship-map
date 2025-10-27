@@ -1,6 +1,7 @@
 <script setup>
-import people from '@/data/people.json'
+import graphJson from '@/data/graph.json'
 const emits = defineEmits(['person-select'])
+const people = graphJson.nodes.map(n => n.data?.person).filter(Boolean)
 </script>
 
 <template>
@@ -11,16 +12,19 @@ const emits = defineEmits(['person-select'])
         :key="p.id"
         class="rounded border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 shadow-sm overflow-hidden"
       >
-        <button class="w-full text-left" @click="emits('person-select', p.id)">
+        <button class="w-full text-left" @click="emits('person-select', p)">
           <div class="p-4">
-            <div class="font-semibold">{{ p.name }}</div>
-            <div class="text-xs text-gray-500 dark:text-gray-400">{{ p.email }}</div>
+            <div class="font-semibold flex items-center gap-2">
+              <span>{{ p.name }}</span>
+              <span v-if="p.gender === 'female'" class="text-pink-500" title="女性">♀</span>
+              <span v-else-if="p.gender === 'male'" class="text-blue-500" title="男性">♂</span>
+            </div>
           </div>
           <div class="px-4 pb-4">
-            <p class="text-sm text-gray-700 dark:text-gray-300 line-clamp-3">{{ p.bio }}</p>
+            <p class="text-sm text-gray-700 dark:text-gray-300 line-clamp-3">{{ p.bio || '—' }}</p>
             <div class="mt-2 flex flex-wrap gap-2">
               <span
-                v-for="tag in p.tags"
+                v-for="tag in (p.tags || [])"
                 :key="tag"
                 class="px-2 py-1 text-xs rounded bg-gray-100 dark:bg-gray-800"
               >{{ tag }}</span>
