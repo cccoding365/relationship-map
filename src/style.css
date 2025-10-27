@@ -1,0 +1,48 @@
+@import "tailwindcss";
+/* 强制 Tailwind v4 的 dark: 变体采用 .dark 类策略 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* 采用 class 策略控制暗黑模式，和 Tailwind 的 dark: 变体保持一致 */
+:root { color-scheme: light; }
+:root.dark { color-scheme: dark; }
+
+/* 关系图背景色变量，随主题切换 */
+:root { --rg-bg: #ffffff; }
+:root.dark { --rg-bg: #111827; }
+
+html, body, #app { height: 100%; }
+
+body { background-color: #ffffff; color: #111827; }
+html.dark body { background-color: #111827; color: #f3f4f6; }
+
+/* 覆盖 relation-graph 默认白色背景，与主题协调 */
+.relation-graph .rel-map { background-color: var(--rg-bg) !important; }
+.relation-graph .rel-miniview { background-color: var(--rg-bg) !important; }
+.relation-graph .rel-miniview canvas { background-color: var(--rg-bg) !important; }
+.relation-graph .rel-graph-loading { background-color: var(--rg-bg) !important; }
+
+/* 提升连线文本可读性：更深填充色 + 轻描边 + 增大字号 */
+.relation-graph .c-rg-line-text {
+  fill: #111827 !important;          /* gray-900，浅色主题更清晰 */
+  font-size: 13px !important;         /* 略增字号 */
+  font-weight: 600 !important;        /* 提升字重以增强可读性 */
+  paint-order: stroke;                 /* 先绘制描边，后填充 */
+  stroke: rgba(255, 255, 255, 0.85);   /* 轻白描边，提升对比 */
+  stroke-width: 2;                     /* 适中描边粗细 */
+}
+
+/* 暗色主题下的连线文本：浅填充 + 深色描边 */
+html.dark .relation-graph .c-rg-line-text {
+  fill: #e5e7eb !important;           /* gray-200，深色背景更清晰 */
+  stroke: rgba(0, 0, 0, 0.7);          /* 深色描边，避免发灰 */
+}
+
+/* 可选：滚动条优化 */
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 100, 100, 0.4);
+  border-radius: 9999px;
+}
