@@ -1,0 +1,1661 @@
+{
+  "rootId": "songjiang",
+  "nodes": [
+    {
+      "id": "songjiang",
+      "text": "宋江",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "songjiang",
+          "name": "宋江",
+          "gender": "male",
+          "bio": "梁山泊首领，绰号：及时雨/呼保义。",
+          "tags": ["水浒传", "梁山", "首领", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "lujunyi",
+      "text": "卢俊义",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "lujunyi",
+          "name": "卢俊义",
+          "gender": "male",
+          "bio": "梁山副首领，绰号：玉麒麟。",
+          "tags": ["水浒传", "梁山", "副首领", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "wuyong",
+      "text": "吴用",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "wuyong",
+          "name": "吴用",
+          "gender": "male",
+          "bio": "掌管机密正军师，绰号：智多星。",
+          "tags": ["水浒传", "梁山", "谋士", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "gongsunsheng",
+      "text": "公孙胜",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "gongsunsheng",
+          "name": "公孙胜",
+          "gender": "male",
+          "bio": "掌管机密副军师，绰号：入云龙。",
+          "tags": ["水浒传", "梁山", "谋士", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "guansheng",
+      "text": "关胜",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "guansheng",
+          "name": "关胜",
+          "gender": "male",
+          "bio": "马军五虎将之首，绰号：大刀。",
+          "tags": ["水浒传", "梁山", "将领", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "linchong",
+      "text": "林冲",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "linchong",
+          "name": "林冲",
+          "gender": "male",
+          "bio": "马军五虎将之一，绰号：豹子头。",
+          "tags": ["水浒传", "梁山", "将领", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "qinming",
+      "text": "秦明",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "qinming",
+          "name": "秦明",
+          "gender": "male",
+          "bio": "马军五虎将之一，绰号：霹雳火。",
+          "tags": ["水浒传", "梁山", "将领", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "huyanzhuo",
+      "text": "呼延灼",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "huyanzhuo",
+          "name": "呼延灼",
+          "gender": "male",
+          "bio": "马军五虎将之一，绰号：双鞭。",
+          "tags": ["水浒传", "梁山", "将领", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "huarong",
+      "text": "花荣",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "huarong",
+          "name": "花荣",
+          "gender": "male",
+          "bio": "马军八骠骑，绰号：小李广。",
+          "tags": ["水浒传", "梁山", "神箭", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "chaijin",
+      "text": "柴进",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "chaijin",
+          "name": "柴进",
+          "gender": "male",
+          "bio": "掌管钱粮头领，绰号：小旋风。",
+          "tags": ["水浒传", "梁山", "内务", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "liying",
+      "text": "李应",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "liying",
+          "name": "李应",
+          "gender": "male",
+          "bio": "内务副总管，绰号：扑天雕。",
+          "tags": ["水浒传", "梁山", "内务", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "zhutong",
+      "text": "朱仝",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "zhutong",
+          "name": "朱仝",
+          "gender": "male",
+          "bio": "马军八骠骑，绰号：美髯公。",
+          "tags": ["水浒传", "梁山", "将领", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "luzhishen",
+      "text": "鲁智深",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "luzhishen",
+          "name": "鲁智深",
+          "gender": "male",
+          "bio": "步军头领，绰号：花和尚。",
+          "tags": ["水浒传", "梁山", "将领", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "wusong",
+      "text": "武松",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "wusong",
+          "name": "武松",
+          "gender": "male",
+          "bio": "步军副都督，绰号：行者。",
+          "tags": ["水浒传", "梁山", "将领", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "dongping",
+      "text": "董平",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "dongping",
+          "name": "董平",
+          "gender": "male",
+          "bio": "马军五虎将之一，绰号：双枪将。",
+          "tags": ["水浒传", "梁山", "将领", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "zhangqing",
+      "text": "张清",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "zhangqing",
+          "name": "张清",
+          "gender": "male",
+          "bio": "马军八骠骑，绰号：没羽箭。",
+          "tags": ["水浒传", "梁山", "将领", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "yangzhi",
+      "text": "杨志",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "yangzhi",
+          "name": "杨志",
+          "gender": "male",
+          "bio": "马军八骠骑，绰号：青面兽。",
+          "tags": ["水浒传", "梁山", "将领", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "xuning",
+      "text": "徐宁",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "xuning",
+          "name": "徐宁",
+          "gender": "male",
+          "bio": "马军八骠骑，绰号：金枪手。",
+          "tags": ["水浒传", "梁山", "将领", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "suochao",
+      "text": "索超",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "suochao",
+          "name": "索超",
+          "gender": "male",
+          "bio": "马军八骠骑，绰号：急先锋。",
+          "tags": ["水浒传", "梁山", "将领", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "daizong",
+      "text": "戴宗",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "daizong",
+          "name": "戴宗",
+          "gender": "male",
+          "bio": "总探声息头领，绰号：神行太保。",
+          "tags": ["水浒传", "梁山", "探声息", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "liutang",
+      "text": "刘唐",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "liutang",
+          "name": "刘唐",
+          "gender": "male",
+          "bio": "步军头领，绰号：赤发鬼。",
+          "tags": ["水浒传", "梁山", "将领", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "likei",
+      "text": "李逵",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "likei",
+          "name": "李逵",
+          "gender": "male",
+          "bio": "步军头领，绰号：黑旋风。",
+          "tags": ["水浒传", "梁山", "将领", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "shijin",
+      "text": "史进",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "shijin",
+          "name": "史进",
+          "gender": "male",
+          "bio": "马军八骠骑，绰号：九纹龙。",
+          "tags": ["水浒传", "梁山", "将领", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "muhong",
+      "text": "穆弘",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "muhong",
+          "name": "穆弘",
+          "gender": "male",
+          "bio": "马军八骠骑，绰号：没遮拦。",
+          "tags": ["水浒传", "梁山", "将领", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "leiheng",
+      "text": "雷横",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "leiheng",
+          "name": "雷横",
+          "gender": "male",
+          "bio": "步军头领，绰号：插翅虎。",
+          "tags": ["水浒传", "梁山", "将领", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "lijun",
+      "text": "李俊",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "lijun",
+          "name": "李俊",
+          "gender": "male",
+          "bio": "水军大都督，绰号：混江龙。",
+          "tags": ["水浒传", "梁山", "水军", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "ruanxiaoer",
+      "text": "阮小二",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "ruanxiaoer",
+          "name": "阮小二",
+          "gender": "male",
+          "bio": "水军，绰号：立地太岁。",
+          "tags": ["水浒传", "梁山", "水军", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "zhangheng",
+      "text": "张横",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "zhangheng",
+          "name": "张横",
+          "gender": "male",
+          "bio": "水军，绰号：船火儿。",
+          "tags": ["水浒传", "梁山", "水军", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "ruanxiaowu",
+      "text": "阮小五",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "ruanxiaowu",
+          "name": "阮小五",
+          "gender": "male",
+          "bio": "水军，绰号：短命二郎。",
+          "tags": ["水浒传", "梁山", "水军", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "zhangshun",
+      "text": "张顺",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "zhangshun",
+          "name": "张顺",
+          "gender": "male",
+          "bio": "水军，绰号：浪里白条。",
+          "tags": ["水浒传", "梁山", "水军", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "ruanxiaoqi",
+      "text": "阮小七",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "ruanxiaoqi",
+          "name": "阮小七",
+          "gender": "male",
+          "bio": "水军，绰号：活阎罗。",
+          "tags": ["水浒传", "梁山", "水军", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "yangxiong",
+      "text": "杨雄",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "yangxiong",
+          "name": "杨雄",
+          "gender": "male",
+          "bio": "步军，绰号：病关索。",
+          "tags": ["水浒传", "梁山", "步军", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "shixiu",
+      "text": "石秀",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "shixiu",
+          "name": "石秀",
+          "gender": "male",
+          "bio": "步军，绰号：拼命三郎。",
+          "tags": ["水浒传", "梁山", "步军", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "xiezhen",
+      "text": "解珍",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "xiezhen",
+          "name": "解珍",
+          "gender": "male",
+          "bio": "步军，绰号：两头蛇。",
+          "tags": ["水浒传", "梁山", "步军", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "xiebao",
+      "text": "解宝",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "xiebao",
+          "name": "解宝",
+          "gender": "male",
+          "bio": "步军，绰号：双尾蝎。",
+          "tags": ["水浒传", "梁山", "步军", "天罡星"]
+        }
+      }
+    },
+    {
+      "id": "yanqing",
+      "text": "燕青",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "yanqing",
+          "name": "燕青",
+          "gender": "male",
+          "bio": "步军，绰号：浪子。",
+          "tags": ["水浒传", "梁山", "艺人", "天罡星"]
+        }
+      }
+    },
+
+    {
+      "id": "zhuwu",
+      "text": "朱武",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "zhuwu",
+          "name": "朱武",
+          "gender": "male",
+          "bio": "军师参赞，绰号：神机军师。",
+          "tags": ["水浒传", "梁山", "军师", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "huangxin",
+      "text": "黄信",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "huangxin",
+          "name": "黄信",
+          "gender": "male",
+          "bio": "马军小彪将，绰号：镇三山。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "sunli",
+      "text": "孙立",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "sunli",
+          "name": "孙立",
+          "gender": "male",
+          "bio": "马军将领，绰号：病尉迟。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "xuanzan",
+      "text": "宣赞",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "xuanzan",
+          "name": "宣赞",
+          "gender": "male",
+          "bio": "马军将领，绰号：丑郡马。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "haosiwen",
+      "text": "郝思文",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "haosiwen",
+          "name": "郝思文",
+          "gender": "male",
+          "bio": "马军将领，绰号：井木犴。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "hantao",
+      "text": "韩滔",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "hantao",
+          "name": "韩滔",
+          "gender": "male",
+          "bio": "马军将领，绰号：百胜将。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "pengqi",
+      "text": "彭玘",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "pengqi",
+          "name": "彭玘",
+          "gender": "male",
+          "bio": "马军将领，绰号：天目将。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "shantinggui",
+      "text": "单廷珪",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "shantinggui",
+          "name": "单廷珪",
+          "gender": "male",
+          "bio": "马军将领，绰号：圣水将。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "weidingguo",
+      "text": "魏定国",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "weidingguo",
+          "name": "魏定国",
+          "gender": "male",
+          "bio": "马军将领，绰号：神火将。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "xiaorang",
+      "text": "萧让",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "xiaorang",
+          "name": "萧让",
+          "gender": "male",
+          "bio": "文书，绰号：圣手书生。",
+          "tags": ["水浒传", "梁山", "文书", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "peixuan",
+      "text": "裴宣",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "peixuan",
+          "name": "裴宣",
+          "gender": "male",
+          "bio": "刑名，绰号：铁面孔目。",
+          "tags": ["水浒传", "梁山", "刑名", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "dengfei",
+      "text": "邓飞",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "dengfei",
+          "name": "邓飞",
+          "gender": "male",
+          "bio": "将领，绰号：火眼狻猊。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "yanshun",
+      "text": "燕顺",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "yanshun",
+          "name": "燕顺",
+          "gender": "male",
+          "bio": "将领，绰号：锦毛虎。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "yanglin",
+      "text": "杨林",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "yanglin",
+          "name": "杨林",
+          "gender": "male",
+          "bio": "将领，绰号：锦豹子。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "lingzhen",
+      "text": "凌振",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "lingzhen",
+          "name": "凌振",
+          "gender": "male",
+          "bio": "火器，绰号：轰天雷。",
+          "tags": ["水浒传", "梁山", "火炮", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "jiangjing",
+      "text": "蒋敬",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "jiangjing",
+          "name": "蒋敬",
+          "gender": "male",
+          "bio": "账目，绰号：神算子。",
+          "tags": ["水浒传", "梁山", "账目", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "lufang",
+      "text": "吕方",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "lufang",
+          "name": "吕方",
+          "gender": "male",
+          "bio": "将领，绰号：小温侯。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "guosheng",
+      "text": "郭盛",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "guosheng",
+          "name": "郭盛",
+          "gender": "male",
+          "bio": "将领，绰号：赛仁贵。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "andaoquan",
+      "text": "安道全",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "andaoquan",
+          "name": "安道全",
+          "gender": "male",
+          "bio": "医者，绰号：神医。",
+          "tags": ["水浒传", "梁山", "医者", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "huangfuduan",
+      "text": "皇甫端",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "huangfuduan",
+          "name": "皇甫端",
+          "gender": "male",
+          "bio": "兽医，绰号：紫髯伯。",
+          "tags": ["水浒传", "梁山", "医者", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "wangying",
+      "text": "王英",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "wangying",
+          "name": "王英",
+          "gender": "male",
+          "bio": "将领，绰号：矮脚虎。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "husanniang",
+      "text": "扈三娘",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "husanniang",
+          "name": "扈三娘",
+          "gender": "female",
+          "bio": "女杰，绰号：一丈青。",
+          "tags": ["水浒传", "梁山", "女杰", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "baoxu",
+      "text": "鲍旭",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "baoxu",
+          "name": "鲍旭",
+          "gender": "male",
+          "bio": "将领，绰号：丧门神。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "fanrui",
+      "text": "樊瑞",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "fanrui",
+          "name": "樊瑞",
+          "gender": "male",
+          "bio": "法术，绰号：混世魔王。",
+          "tags": ["水浒传", "梁山", "法术", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "kongming",
+      "text": "孔明",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "kongming",
+          "name": "孔明",
+          "gender": "male",
+          "bio": "将领，绰号：毛头星。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "kongliang",
+      "text": "孔亮",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "kongliang",
+          "name": "孔亮",
+          "gender": "male",
+          "bio": "将领，绰号：独火星。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "xiangchong",
+      "text": "项充",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "xiangchong",
+          "name": "项充",
+          "gender": "male",
+          "bio": "将领，绰号：八臂哪吒。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "ligun",
+      "text": "李衮",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "ligun",
+          "name": "李衮",
+          "gender": "male",
+          "bio": "将领，绰号：飞天大圣。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "jindajian",
+      "text": "金大坚",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "jindajian",
+          "name": "金大坚",
+          "gender": "male",
+          "bio": "工匠，绰号：玉臂匠。",
+          "tags": ["水浒传", "梁山", "工匠", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "malin",
+      "text": "马麟",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "malin",
+          "name": "马麟",
+          "gender": "male",
+          "bio": "乐师，绰号：铁笛仙。",
+          "tags": ["水浒传", "梁山", "艺人", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "tongwei",
+      "text": "童威",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "tongwei",
+          "name": "童威",
+          "gender": "male",
+          "bio": "水军，绰号：出洞蛟。",
+          "tags": ["水浒传", "梁山", "水军", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "tongmeng",
+      "text": "童猛",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "tongmeng",
+          "name": "童猛",
+          "gender": "male",
+          "bio": "水军，绰号：翻江蜃。",
+          "tags": ["水浒传", "梁山", "水军", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "mengkang",
+      "text": "孟康",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "mengkang",
+          "name": "孟康",
+          "gender": "male",
+          "bio": "船匠，绰号：玉幡竿。",
+          "tags": ["水浒传", "梁山", "工匠", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "houjian",
+      "text": "侯健",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "houjian",
+          "name": "侯健",
+          "gender": "male",
+          "bio": "裁缝，绰号：通臂猿。",
+          "tags": ["水浒传", "梁山", "工匠", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "chenda",
+      "text": "陈达",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "chenda",
+          "name": "陈达",
+          "gender": "male",
+          "bio": "头领，绰号：跳涧虎。",
+          "tags": ["水浒传", "梁山", "步军", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "yangchun",
+      "text": "杨春",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "yangchun",
+          "name": "杨春",
+          "gender": "male",
+          "bio": "头领，绰号：白花蛇。",
+          "tags": ["水浒传", "梁山", "步军", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "zhengtian_shou",
+      "text": "郑天寿",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "zhengtian_shou",
+          "name": "郑天寿",
+          "gender": "male",
+          "bio": "头领，绰号：白面郎君。",
+          "tags": ["水浒传", "梁山", "步军", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "taozongwang",
+      "text": "陶宗旺",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "taozongwang",
+          "name": "陶宗旺",
+          "gender": "male",
+          "bio": "工匠，绰号：九尾龟。",
+          "tags": ["水浒传", "梁山", "工匠", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "songqing",
+      "text": "宋清",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "songqing",
+          "name": "宋清",
+          "gender": "male",
+          "bio": "宋江之弟，绰号：铁扇子。",
+          "tags": ["水浒传", "梁山", "后勤", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "lehe",
+      "text": "乐和",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "lehe",
+          "name": "乐和",
+          "gender": "male",
+          "bio": "艺人，绰号：铁叫子。",
+          "tags": ["水浒传", "梁山", "艺人", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "gongwang",
+      "text": "龚旺",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "gongwang",
+          "name": "龚旺",
+          "gender": "male",
+          "bio": "将领，绰号：花项虎。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "dingdesun",
+      "text": "丁得孙",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "dingdesun",
+          "name": "丁得孙",
+          "gender": "male",
+          "bio": "将领，绰号：中箭虎。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "muchun",
+      "text": "穆春",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "muchun",
+          "name": "穆春",
+          "gender": "male",
+          "bio": "头领，绰号：小遮拦。",
+          "tags": ["水浒传", "梁山", "步军", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "caozheng",
+      "text": "曹正",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "caozheng",
+          "name": "曹正",
+          "gender": "male",
+          "bio": "屠户，绰号：操刀鬼。",
+          "tags": ["水浒传", "梁山", "后勤", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "songwan",
+      "text": "宋万",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "songwan",
+          "name": "宋万",
+          "gender": "male",
+          "bio": "头领，绰号：云里金刚。",
+          "tags": ["水浒传", "梁山", "步军", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "duqian",
+      "text": "杜迁",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "duqian",
+          "name": "杜迁",
+          "gender": "male",
+          "bio": "头领，绰号：摸着天。",
+          "tags": ["水浒传", "梁山", "步军", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "xueyong",
+      "text": "薛永",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "xueyong",
+          "name": "薛永",
+          "gender": "male",
+          "bio": "将领，绰号：病大虫。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "lizhong",
+      "text": "李忠",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "lizhong",
+          "name": "李忠",
+          "gender": "male",
+          "bio": "将领，绰号：打虎将。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "zhoutong",
+      "text": "周通",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "zhoutong",
+          "name": "周通",
+          "gender": "male",
+          "bio": "头领，绰号：小霸王。",
+          "tags": ["水浒传", "梁山", "步军", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "tanglong",
+      "text": "汤隆",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "tanglong",
+          "name": "汤隆",
+          "gender": "male",
+          "bio": "工匠，绰号：金钱豹子。",
+          "tags": ["水浒传", "梁山", "工匠", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "duxing",
+      "text": "杜兴",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "duxing",
+          "name": "杜兴",
+          "gender": "male",
+          "bio": "头领，绰号：鬼脸儿。",
+          "tags": ["水浒传", "梁山", "步军", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "zhouyuan",
+      "text": "邹渊",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "zhouyuan",
+          "name": "邹渊",
+          "gender": "male",
+          "bio": "将领，绰号：出林龙。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "zhourun",
+      "text": "邹润",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "zhourun",
+          "name": "邹润",
+          "gender": "male",
+          "bio": "将领，绰号：独角龙。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "zhugui",
+      "text": "朱贵",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "zhugui",
+          "name": "朱贵",
+          "gender": "male",
+          "bio": "后勤，绰号：旱地忽律。",
+          "tags": ["水浒传", "梁山", "后勤", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "zhufu",
+      "text": "朱富",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "zhufu",
+          "name": "朱富",
+          "gender": "male",
+          "bio": "后勤，绰号：笑面虎。",
+          "tags": ["水浒传", "梁山", "后勤", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "shien",
+      "text": "施恩",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "shien",
+          "name": "施恩",
+          "gender": "male",
+          "bio": "将领，绰号：金眼彪。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "caifu",
+      "text": "蔡福",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "caifu",
+          "name": "蔡福",
+          "gender": "male",
+          "bio": "刑名，绰号：铁臂膊。",
+          "tags": ["水浒传", "梁山", "刑名", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "caijing",
+      "text": "蔡庆",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "caijing",
+          "name": "蔡庆",
+          "gender": "male",
+          "bio": "刑名，绰号：一枝花。",
+          "tags": ["水浒传", "梁山", "刑名", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "lili",
+      "text": "李立",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "lili",
+          "name": "李立",
+          "gender": "male",
+          "bio": "店家，绰号：催命判官。",
+          "tags": ["水浒传", "梁山", "后勤", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "liyun",
+      "text": "李云",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "liyun",
+          "name": "李云",
+          "gender": "male",
+          "bio": "将领，绰号：青眼虎。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "jiaoting",
+      "text": "焦挺",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "jiaoting",
+          "name": "焦挺",
+          "gender": "male",
+          "bio": "将领，绰号：没面目。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "shiyong",
+      "text": "石勇",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "shiyong",
+          "name": "石勇",
+          "gender": "male",
+          "bio": "将领，绰号：石将军。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "sunxin",
+      "text": "孙新",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "sunxin",
+          "name": "孙新",
+          "gender": "male",
+          "bio": "将领，绰号：小尉迟。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "gudasao",
+      "text": "顾大嫂",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "gudasao",
+          "name": "顾大嫂",
+          "gender": "female",
+          "bio": "女杰，绰号：母大虫。",
+          "tags": ["水浒传", "梁山", "女杰", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "zhang_qing",
+      "text": "张青",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "zhang_qing",
+          "name": "张青",
+          "gender": "male",
+          "bio": "后勤，绰号：菜园子。",
+          "tags": ["水浒传", "梁山", "后勤", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "suner_niang",
+      "text": "孙二娘",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "suner_niang",
+          "name": "孙二娘",
+          "gender": "female",
+          "bio": "女杰，绰号：母夜叉。",
+          "tags": ["水浒传", "梁山", "女杰", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "wangdingliu",
+      "text": "王定六",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "wangdingliu",
+          "name": "王定六",
+          "gender": "male",
+          "bio": "将领，绰号：活闪婆。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "yubaosi",
+      "text": "郁保四",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "yubaosi",
+          "name": "郁保四",
+          "gender": "male",
+          "bio": "将领，绰号：险道神。",
+          "tags": ["水浒传", "梁山", "将领", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "baisheng",
+      "text": "白胜",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "baisheng",
+          "name": "白胜",
+          "gender": "male",
+          "bio": "后勤，绰号：白日鼠。",
+          "tags": ["水浒传", "梁山", "后勤", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "shiqian",
+      "text": "时迁",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "shiqian",
+          "name": "时迁",
+          "gender": "male",
+          "bio": "飞贼，绰号：鼓上蚤。",
+          "tags": ["水浒传", "梁山", "奇兵", "地煞星"]
+        }
+      }
+    },
+    {
+      "id": "duanjingzhu",
+      "text": "段景住",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "duanjingzhu",
+          "name": "段景住",
+          "gender": "male",
+          "bio": "奇兵，绰号：金毛犬。",
+          "tags": ["水浒传", "梁山", "奇兵", "地煞星"]
+        }
+      }
+    },
+
+    {
+      "id": "chaogai",
+      "text": "晁盖",
+      "color": "#22c55e",
+      "borderColor": "#86efac",
+      "data": {
+        "person": {
+          "id": "chaogai",
+          "name": "晁盖",
+          "gender": "male",
+          "bio": "梁山早期首领，替天行道。",
+          "tags": ["水浒传", "梁山", "首领"]
+        }
+      }
+    },
+    {
+      "id": "gaoqiu",
+      "text": "高俅",
+      "color": "#64748b",
+      "borderColor": "#94a3b8",
+      "data": {
+        "person": {
+          "id": "gaoqiu",
+          "name": "高俅",
+          "gender": "male",
+          "bio": "权奸，宋江等之敌。",
+          "tags": ["水浒传", "朝廷", "对立"]
+        }
+      }
+    }
+  ],
+  "lines": [
+    { "from": "songjiang", "to": "wuyong", "text": "君臣（谋士）" },
+    { "from": "songjiang", "to": "lujunyi", "text": "同僚（首领）" },
+    { "from": "songjiang", "to": "likei", "text": "君臣（将领）" },
+    { "from": "songjiang", "to": "wusong", "text": "君臣（将领）" },
+    { "from": "songjiang", "to": "linchong", "text": "君臣（将领）" },
+    { "from": "songjiang", "to": "luzhishen", "text": "君臣（将领）" },
+    { "from": "songjiang", "to": "huarong", "text": "君臣（将领）" },
+    { "from": "songjiang", "to": "gongsunsheng", "text": "君臣（谋士）" },
+    { "from": "songjiang", "to": "yanqing", "text": "君臣（随从）" },
+    { "from": "songjiang", "to": "shiqian", "text": "君臣（奇兵）" },
+    { "from": "chaijin", "to": "songjiang", "text": "资助" },
+    { "from": "chaogai", "to": "songjiang", "text": "义友" },
+    { "from": "chaogai", "to": "wuyong", "text": "义友" },
+    { "from": "linchong", "to": "luzhishen", "text": "同道" },
+    { "from": "suner_niang", "to": "zhang_qing", "text": "夫妻" },
+    { "from": "gaoqiu", "to": "linchong", "text": "对敌" },
+    { "from": "gaoqiu", "to": "songjiang", "text": "对敌" }
+  ]
+}

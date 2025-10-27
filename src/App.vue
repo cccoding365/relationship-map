@@ -7,6 +7,8 @@ import DatasetPicker from "@/components/DatasetPicker.vue";
 import PersonDetail from "@/components/PersonDetail.vue";
 import hongLou from "@/data/红楼梦.json";
 import sanGuo from "@/data/三国演义.json";
+import xiYou from "@/data/西游记.json";
+import shuiHu from "@/data/水浒传.json";
 
 const currentView = ref("graph"); // 'graph' | 'list'
 const isDark = ref(false);
@@ -17,6 +19,8 @@ const showDatasetPicker = ref(false);
 const datasets = {
   红楼梦: hongLou,
   三国演义: sanGuo,
+  西游记: xiYou,
+  水浒传: shuiHu,
 };
 const currentDatasetName = ref("红楼梦");
 const currentDataset = computed(() => datasets[currentDatasetName.value]);

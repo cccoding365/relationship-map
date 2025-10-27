@@ -1,0 +1,220 @@
+{
+  "rootId": "tang_seng",
+  "nodes": [
+    {
+      "id": "tang_seng",
+      "text": "唐僧",
+      "color": "#4ea2f0",
+      "borderColor": "#6cc0ff",
+      "data": {
+        "person": {
+          "id": "tang_seng",
+          "name": "唐僧",
+          "gender": "male",
+          "bio": "取经师父，慈悲为怀。",
+          "tags": ["西游记", "师父"]
+        }
+      }
+    },
+    {
+      "id": "sun_wukong",
+      "text": "孙悟空",
+      "color": "#4ea2f0",
+      "borderColor": "#6cc0ff",
+      "data": {
+        "person": {
+          "id": "sun_wukong",
+          "name": "孙悟空",
+          "gender": "male",
+          "bio": "齐天大圣，法力高强，保唐僧西天取经。",
+          "tags": ["西游记", "徒弟", "齐天大圣"]
+        }
+      }
+    },
+    {
+      "id": "zhu_bajie",
+      "text": "猪八戒",
+      "color": "#4ea2f0",
+      "borderColor": "#6cc0ff",
+      "data": {
+        "person": {
+          "id": "zhu_bajie",
+          "name": "猪八戒",
+          "gender": "male",
+          "bio": "天蓬元帅下凡，憨厚好吃。",
+          "tags": ["西游记", "徒弟"]
+        }
+      }
+    },
+    {
+      "id": "sha_seng",
+      "text": "沙僧",
+      "color": "#4ea2f0",
+      "borderColor": "#6cc0ff",
+      "data": {
+        "person": {
+          "id": "sha_seng",
+          "name": "沙僧",
+          "gender": "male",
+          "bio": "性情稳重，忠厚随行。",
+          "tags": ["西游记", "徒弟"]
+        }
+      }
+    },
+    {
+      "id": "bai_longma",
+      "text": "白龙马",
+      "color": "#4ea2f0",
+      "borderColor": "#6cc0ff",
+      "data": {
+        "person": {
+          "id": "bai_longma",
+          "name": "白龙马",
+          "gender": "male",
+          "bio": "小白龙化马，驮唐僧西行。",
+          "tags": ["西游记", "坐骑"]
+        }
+      }
+    },
+    {
+      "id": "guan_yin",
+      "text": "观音菩萨",
+      "color": "#8b5cf6",
+      "borderColor": "#a78bfa",
+      "data": {
+        "person": {
+          "id": "guan_yin",
+          "name": "观音菩萨",
+          "gender": "female",
+          "bio": "慈悲普度，护持取经。",
+          "tags": ["西游记", "神佛"]
+        }
+      }
+    },
+    {
+      "id": "ru_lai",
+      "text": "如来佛祖",
+      "color": "#8b5cf6",
+      "borderColor": "#a78bfa",
+      "data": {
+        "person": {
+          "id": "ru_lai",
+          "name": "如来佛祖",
+          "gender": "male",
+          "bio": "西天之主，收伏悟空。",
+          "tags": ["西游记", "神佛"]
+        }
+      }
+    },
+    {
+      "id": "erlang_shen",
+      "text": "二郎神",
+      "color": "#8b5cf6",
+      "borderColor": "#a78bfa",
+      "data": {
+        "person": {
+          "id": "erlang_shen",
+          "name": "二郎神",
+          "gender": "male",
+          "bio": "神将，曾与悟空交战。",
+          "tags": ["西游记", "神将"]
+        }
+      }
+    },
+    {
+      "id": "niu_mowang",
+      "text": "牛魔王",
+      "color": "#64748b",
+      "borderColor": "#94a3b8",
+      "data": {
+        "person": {
+          "id": "niu_mowang",
+          "name": "牛魔王",
+          "gender": "male",
+          "bio": "妖王，曾与悟空交好后反目。",
+          "tags": ["西游记", "妖王"]
+        }
+      }
+    },
+    {
+      "id": "tieshan_gongzhu",
+      "text": "铁扇公主",
+      "color": "#64748b",
+      "borderColor": "#94a3b8",
+      "data": {
+        "person": {
+          "id": "tieshan_gongzhu",
+          "name": "铁扇公主",
+          "gender": "female",
+          "bio": "罗刹女，芭蕉扇主人。",
+          "tags": ["西游记", "妖族"]
+        }
+      }
+    },
+    {
+      "id": "hong_haier",
+      "text": "红孩儿",
+      "color": "#64748b",
+      "borderColor": "#94a3b8",
+      "data": {
+        "person": {
+          "id": "hong_haier",
+          "name": "红孩儿",
+          "gender": "male",
+          "bio": "牛魔王与铁扇公主之子，喷三昧真火。",
+          "tags": ["西游记", "妖族"]
+        }
+      }
+    },
+    {
+      "id": "baigu_jing",
+      "text": "白骨精",
+      "color": "#64748b",
+      "borderColor": "#94a3b8",
+      "data": {
+        "person": {
+          "id": "baigu_jing",
+          "name": "白骨精",
+          "gender": "female",
+          "bio": "变幻迷惑，欲害唐僧。",
+          "tags": ["西游记", "妖族"]
+        }
+      }
+    },
+    {
+      "id": "liuer_mihou",
+      "text": "六耳猕猴",
+      "color": "#64748b",
+      "borderColor": "#94a3b8",
+      "data": {
+        "person": {
+          "id": "liuer_mihou",
+          "name": "六耳猕猴",
+          "gender": "male",
+          "bio": "与悟空外形相似，擅变化。",
+          "tags": ["西游记", "妖族"]
+        }
+      }
+    }
+  ],
+  "lines": [
+    { "from": "tang_seng", "to": "sun_wukong", "text": "师徒" },
+    { "from": "tang_seng", "to": "zhu_bajie", "text": "师徒" },
+    { "from": "tang_seng", "to": "sha_seng", "text": "师徒" },
+    { "from": "tang_seng", "to": "bai_longma", "text": "同伴（坐骑）" },
+    { "from": "sun_wukong", "to": "tang_seng", "text": "护主" },
+    { "from": "zhu_bajie", "to": "sun_wukong", "text": "同伴" },
+    { "from": "sha_seng", "to": "sun_wukong", "text": "同伴" },
+    { "from": "guan_yin", "to": "tang_seng", "text": "护持" },
+    { "from": "guan_yin", "to": "sun_wukong", "text": "庇佑" },
+    { "from": "ru_lai", "to": "sun_wukong", "text": "收伏" },
+    { "from": "erlang_shen", "to": "sun_wukong", "text": "对敌" },
+    { "from": "sun_wukong", "to": "niu_mowang", "text": "对敌" },
+    { "from": "tieshan_gongzhu", "to": "niu_mowang", "text": "夫妻" },
+    { "from": "tieshan_gongzhu", "to": "hong_haier", "text": "母子" },
+    { "from": "guan_yin", "to": "hong_haier", "text": "收伏" },
+    { "from": "sun_wukong", "to": "baigu_jing", "text": "对敌" },
+    { "from": "tang_seng", "to": "baigu_jing", "text": "对敌" },
+    { "from": "sun_wukong", "to": "liuer_mihou", "text": "对敌" }
+  ]
+}
