@@ -25,9 +25,20 @@ const datasets = {
 const currentDatasetName = ref("红楼梦");
 const currentDataset = computed(() => datasets[currentDatasetName.value]);
 
+// 统计当前数据集中的人物节点与关系数量
+const personCount = computed(
+  () => (currentDataset.value?.nodes || []).filter(n => n?.data?.person).length
+);
+const relationCount = computed(
+  () => (currentDataset.value?.lines || []).length
+);
+
 const toggleDark = () => {
   isDark.value = !isDark.value;
   document.documentElement.classList.toggle("dark", isDark.value);
+  try {
+    localStorage.setItem("theme", isDark.value ? "dark" : "light");
+  } catch (e) {}
 };
 
 const onNodeSelect = (person) => {
@@ -39,11 +50,19 @@ const closeDetail = () => {
 };
 
 onMounted(() => {
-  // 默认跟随系统暗色模式
-  const prefersDark =
-    window.matchMedia &&
-    window.matchMedia("(prefers-color-scheme: dark)").matches;
-  isDark.value = prefersDark;
+  // 优先读取本地偏好；无记录则跟随系统暗色模式
+  let stored = null;
+  try {
+    stored = localStorage.getItem("theme");
+  } catch (e) {}
+  if (stored === "dark" || stored === "light") {
+    isDark.value = stored === "dark";
+  } else {
+    const prefersDark =
+      window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches;
+    isDark.value = prefersDark;
+  }
   document.documentElement.classList.toggle("dark", isDark.value);
 });
 
@@ -118,7 +137,7 @@ const selectDataset = (name) => {
     </header>
 
     <!-- 内容区 -->
-    <main class="flex-1 pt-12">
+    <main class="flex-1 pt-12 pb-10">
       <GraphView
         ref="graphViewRef"
         :visible="currentView === 'graph'"
@@ -143,6 +162,16 @@ const selectDataset = (name) => {
       @close="showDatasetPicker = false"
       @select="selectDataset"
     />
+
+    <!-- 底部状态栏：展示当前数据集的统计信息 -->
+    <footer
+      class="fixed bottom-0 inset-x-0 z-50 h-10 px-4 border-t border-gray-200 dark:border-gray-800 bg-white/70 dark:bg-gray-900/70 backdrop-blur supports-[backdrop-filter]:bg-white/50 dark:supports-[backdrop-filter]:bg-gray-900/50"
+    >
+      <div class="h-full flex items-center justify-between text-sm text-gray-700 dark:text-gray-300">
+        <div>数据源：{{ currentDatasetName }}</div>
+        <div>人物：{{ personCount }} ｜ 关系：{{ relationCount }}</div>
+      </div>
+    </footer>
   </div>
 </template>
 
